@@ -2,12 +2,12 @@ console.log('first')
 const btnSubmit = document.getElementById('btn-submit');
 btnSubmit.addEventListener('click', () => {
     const inputEmail = document.getElementById('user-email');
-    const inputEmailValue = inputEmail.value;
-    console.log(inputEmailValue);
+    const email = inputEmail.value;
+    console.log(email);
     const inputPassword = document.getElementById('user-password');
-    const inputPasswordValue = inputPassword.value;
-    console.log(inputPasswordValue);
-    if (inputEmailValue === 'tauhidhasan@gmail.com' && inputPasswordValue === 'bankproject') {
+    const password = inputPassword.value;
+    console.log(password);
+    if (email === 'tauhidhasan@gmail.com' && password === 'bankproject') {
         window.location.href = 'bank.html'
     } else {
         alert('Plese try again')

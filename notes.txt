@@ -1,0 +1,6 @@
+string + string = string
+string + number = string
+number + number = number
+
+input field er value gulo sob strign e convert hoye jai
+mathmatical operation er jonno amaderke agulake number e convert kore nite hobe
